@@ -62,7 +62,9 @@ public class SpringBatchConfig {
 
         lineMapper.setLineTokenizer(lineTokenizer);
         lineMapper.setFieldSetMapper(fieldSetMapper);
+        System.out.println("hello");
         return lineMapper;
+
     }
 
     @Bean
