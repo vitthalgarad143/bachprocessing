@@ -69,6 +69,7 @@ public class SpringBatchConfig {
 
     @Bean
     public CustomerProcessor processor() {
+        System.out.println(" ");
         return new CustomerProcessor();
     }
 
