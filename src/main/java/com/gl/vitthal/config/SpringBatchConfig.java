@@ -83,6 +83,7 @@ public class SpringBatchConfig {
         RepositoryItemWriter<Customer> writer = new RepositoryItemWriter<>();
         writer.setRepository(customerRepository);
         writer.setMethodName("save");
+        System.out.println("Saved Sucessfully");
         return writer;
     }
 
